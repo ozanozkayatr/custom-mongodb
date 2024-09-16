@@ -1,6 +1,6 @@
 {
   "name": "@ozanozkaya/custom-mongodb",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A custom MongoDB module for managing database operations and pagination.",
   "main": "index.js",
   "repository": {
