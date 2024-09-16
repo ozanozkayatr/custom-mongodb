@@ -1,11 +1,8 @@
 {
-  "name": "custom-mongodb",
+  "name": "@ozanozkaya/custom-mongodb",
   "version": "1.0.0",
   "description": "A custom MongoDB module for managing database operations and pagination.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git@github.com:ozanozkayatr/custom-mongodb.git"
@@ -16,6 +13,6 @@
     "pagination",
     "nodejs"
   ],
-  "author": "Your Name",
+  "author": "Ozan Ozkaya",
   "license": "MIT"
 }
