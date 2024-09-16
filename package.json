@@ -1,15 +1,21 @@
 {
   "name": "custom-mongodb",
   "version": "1.0.0",
-  "description": "Custom Mongodb NPM Package",
+  "description": "A custom MongoDB module for managing database operations and pagination.",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ozanozkayatr/custom-mongodb.git"
   },
   "keywords": [
     "mongodb",
-    "npm"
+    "database",
+    "pagination",
+    "nodejs"
   ],
-  "author": "Ozan Ozkaya",
-  "license": "ISC"
+  "author": "Your Name",
+  "license": "MIT"
 }
