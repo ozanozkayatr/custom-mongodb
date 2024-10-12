@@ -97,12 +97,11 @@ module.exports = class MongoDB {
     dbName,
     collection,
     query,
-    data,
-    options = { upsert: true, new: true }
+    updateData,
+    options = { upsert: true, new: true, useFindAndModify: false }
   ) {
     const model = await this.getModel(collection, dbName);
-    const update = { $set: data };
-    const result = await model.findOneAndUpdate(query, update, options);
+    const result = await model.findOneAndUpdate(query, updateData, options);
     return {
       message: "Query updated successfully.",
       code: 0,
